@@ -1,0 +1,9 @@
+=== REPORTE DE AUDITORÍA ===
+Fecha y hora: 2025-02-27 17:06:03
+
+Registros obtenidos del API: 1
+Registros almacenados en la base de datos: 1
+
+✓ ÉXITO: Todos los registros del API fueron almacenados correctamente.
+
+✓ ÉXITO: Todos los IDs del API están presentes en la base de datos.
