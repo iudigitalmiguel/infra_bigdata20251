@@ -1,0 +1,9 @@
+=== REPORTE DE AUDITORÍA ===
+Fecha y hora: 2025-03-02 15:25:53
+
+Registros obtenidos del API: 1
+Registros almacenados en la base de datos: 2
+
+⚠ ADVERTENCIA: Hay una diferencia de 1 registros entre el API y la base de datos.
+
+✓ ÉXITO: Todos los IDs del API están presentes en la base de datos.
