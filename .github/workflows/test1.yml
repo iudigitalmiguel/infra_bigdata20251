@@ -27,14 +27,17 @@ jobs:
         run: pip install --upgrade pip
       - name: paso4 - instalar dependencias
         run: pip install -e .
-      - name: paso5 - Ejecutar script
+      - name: paso5 - Ejecutar script ACTIVIADAD 1
         #run: python src/bigdata/ingesta.py
-        run: python src/bigdata/ingesta.py
+        run: python src/bigdata/ingesta.py      
+      - name: paso6 - Ejecutar script ACTIVIDAD 2
+        run: python src/bigdata/cleaning.py
+
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: generación informe prueba json
+          commit_message: generación informe ingesta datos en base de datos
           commit_user_name: Miguel Angel Leal Beltran [GitHub Actions]
           commit_user_email: miguel.leal@iudigital.edu.co
           commit_author: Miguel Angel Leal Beltran <miguel.leal@iudigital.edu.co>
