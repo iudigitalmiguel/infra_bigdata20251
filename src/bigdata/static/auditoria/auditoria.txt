@@ -1,9 +1,21 @@
 === REPORTE DE AUDITORÍA ===
-Fecha y hora: 2025-03-02 15:25:53
+Fecha y hora: 2025-03-30 15:23:43
 
-Registros obtenidos del API: 1
-Registros almacenados en la base de datos: 2
+Registros de personajes obtenidos del API: 261
+Registros esperados con duplicados: aprox. 287
+Registros de personajes almacenados en la base de datos: 290
 
-⚠ ADVERTENCIA: Hay una diferencia de 1 registros entre el API y la base de datos.
+Registros de actores de voz obtenidos del API: 1428
+Registros de actores de voz almacenados en la base de datos: 1415
 
-✓ ÉXITO: Todos los IDs del API están presentes en la base de datos.
+NOTA: Se agregaron errores controlados a los datos para simular problemas de calidad.
+Tipos de errores incluidos:
+  - Valores nulos en campos aleatorios
+  - Tipos de datos incorrectos (ej: texto en campos numéricos)
+  - Registros duplicados con IDs diferentes
+  - Caracteres especiales en campos de texto
+  - Formatos de fecha inconsistentes
+  - Valores extremos (outliers) en campos numéricos
+
+Estos errores son intencionales para permitir realizar la actividad de limpieza de datos.
+

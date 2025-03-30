@@ -32,6 +32,8 @@ jobs:
         run: python src/bigdata/ingesta.py      
       - name: paso6 - Ejecutar script ACTIVIDAD 2
         run: python src/bigdata/cleaning.py
+      - name: paso7 - Ejecutar script ACTIVIDAD 3
+        run: python src/bigdata/transformation.py        
 
 
       - name: Commit and Push changes
