@@ -1,12 +1,12 @@
 === REPORTE DE AUDITORÍA ===
-Fecha y hora: 2025-03-30 21:11:16
+Fecha y hora: 2025-04-06 20:52:35
 
 Registros de personajes obtenidos del API: 261
 Registros esperados con duplicados: aprox. 287
-Registros de personajes almacenados en la base de datos: 309
+Registros de personajes almacenados en la base de datos: 326
 
 Registros de actores de voz obtenidos del API: 1428
-Registros de actores de voz almacenados en la base de datos: 2839
+Registros de actores de voz almacenados en la base de datos: 4227
 
 NOTA: Se agregaron errores controlados a los datos para simular problemas de calidad.
 Tipos de errores incluidos:

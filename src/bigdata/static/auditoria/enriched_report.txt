@@ -1,73 +1,73 @@
-2025-03-30 21:11:18 - === REPORTE DE ENRIQUECIMIENTO DE DATOS ===
-2025-03-30 21:11:18 - Fecha y hora: 2025-03-30 21:11:18
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - Iniciando proceso de enriquecimiento de datos...
-2025-03-30 21:11:18 - Cargando dataset base desde: src/bigdata/static/db/cleaned_data.csv
-2025-03-30 21:11:18 - Dataset base cargado exitosamente: 309 registros
-2025-03-30 21:11:18 - Dividiendo el dataset base en dos partes...
-2025-03-30 21:11:18 - Parte 1 (CSV) creada con 309 registros y columnas: id, nombre, anime_id, role
-2025-03-30 21:11:18 - Parte 2 (JSON) creada con 309 registros y columnas: id, nombre, nombre_kanji, imagen_url, fecha_extraccion
-2025-03-30 21:11:18 - Archivo Excel adicional creado con 309 registros
-2025-03-30 21:11:18 - Archivo XML adicional creado con categorías para 10 animes
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 - === REPORTE DE ENRIQUECIMIENTO DE DATOS ===
+2025-04-06 20:52:37 - Fecha y hora: 2025-04-06 20:52:37
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - Iniciando proceso de enriquecimiento de datos...
+2025-04-06 20:52:37 - Cargando dataset base desde: src/bigdata/static/db/cleaned_data.csv
+2025-04-06 20:52:37 - Dataset base cargado exitosamente: 326 registros
+2025-04-06 20:52:37 - Dividiendo el dataset base en dos partes...
+2025-04-06 20:52:37 - Parte 1 (CSV) creada con 326 registros y columnas: id, nombre, anime_id, role
+2025-04-06 20:52:37 - Parte 2 (JSON) creada con 326 registros y columnas: id, nombre, nombre_kanji, imagen_url, fecha_extraccion
+2025-04-06 20:52:37 - Archivo Excel adicional creado con 326 registros
+2025-04-06 20:52:37 - Archivo XML adicional creado con categorías para 10 animes
+2025-04-06 20:52:37 - 
 ============================================================
-2025-03-30 21:11:18 - LECTURA DE FUENTES ADICIONALES
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - CSV leído correctamente: 309 registros
-2025-03-30 21:11:18 - JSON leído correctamente: 309 registros
-2025-03-30 21:11:18 - Excel leído correctamente: 309 registros
-2025-03-30 21:11:18 - XML leído correctamente: 10 registros
-2025-03-30 21:11:18 - Total de fuentes adicionales leídas: 4
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 - LECTURA DE FUENTES ADICIONALES
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - CSV leído correctamente: 326 registros
+2025-04-06 20:52:37 - JSON leído correctamente: 326 registros
+2025-04-06 20:52:37 - Excel leído correctamente: 326 registros
+2025-04-06 20:52:37 - XML leído correctamente: 10 registros
+2025-04-06 20:52:37 - Total de fuentes adicionales leídas: 4
+2025-04-06 20:52:37 - 
 ============================================================
-2025-03-30 21:11:18 - INTEGRACIÓN DE DATOS
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - Usando dataset base como inicio: 309 registros
-2025-03-30 21:11:18 - Integración con JSON: 309 registros, 1 columnas
-2025-03-30 21:11:18 - Columnas agregadas de JSON: 
-2025-03-30 21:11:18 - Integración con Excel: 309 registros, 4 columnas
-2025-03-30 21:11:18 - Columnas agregadas de Excel: popularidad, ranking, votos
-2025-03-30 21:11:18 - Integración con XML: 10 registros, 1 columna
-2025-03-30 21:11:18 - Columna agregada de XML: categorias
-2025-03-30 21:11:18 - Resultado de la integración:
-2025-03-30 21:11:18 - - Registros en dataset enriquecido: 309
-2025-03-30 21:11:18 - - Columnas originales: 7
-2025-03-30 21:11:18 - - Columnas nuevas: 4
-2025-03-30 21:11:18 - - Total columnas: 11
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 - INTEGRACIÓN DE DATOS
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - Usando dataset base como inicio: 326 registros
+2025-04-06 20:52:37 - Integración con JSON: 326 registros, 1 columnas
+2025-04-06 20:52:37 - Columnas agregadas de JSON: 
+2025-04-06 20:52:37 - Integración con Excel: 326 registros, 4 columnas
+2025-04-06 20:52:37 - Columnas agregadas de Excel: popularidad, ranking, votos
+2025-04-06 20:52:37 - Integración con XML: 10 registros, 1 columna
+2025-04-06 20:52:37 - Columna agregada de XML: categorias
+2025-04-06 20:52:37 - Resultado de la integración:
+2025-04-06 20:52:37 - - Registros en dataset enriquecido: 326
+2025-04-06 20:52:37 - - Columnas originales: 7
+2025-04-06 20:52:37 - - Columnas nuevas: 4
+2025-04-06 20:52:37 - - Total columnas: 11
+2025-04-06 20:52:37 - 
 ============================================================
-2025-03-30 21:11:18 - GENERACIÓN DE EVIDENCIAS
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - Datos enriquecidos guardados en Excel: src/bigdata/static/db/enriched_data.xlsx
-2025-03-30 21:11:18 - Datos enriquecidos guardados en CSV: src/bigdata/static/db/enriched_data.csv
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 - GENERACIÓN DE EVIDENCIAS
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - Datos enriquecidos guardados en Excel: src/bigdata/static/db/enriched_data.xlsx
+2025-04-06 20:52:37 - Datos enriquecidos guardados en CSV: src/bigdata/static/db/enriched_data.csv
+2025-04-06 20:52:37 - 
 RESUMEN FINAL DEL PROCESO DE ENRIQUECIMIENTO
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - • Dataset Base:
-2025-03-30 21:11:18 -   - Registros: 309
-2025-03-30 21:11:18 -   - Columnas: 7
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - • Dataset Base:
+2025-04-06 20:52:37 -   - Registros: 326
+2025-04-06 20:52:37 -   - Columnas: 7
+2025-04-06 20:52:37 - 
 • Dataset Enriquecido:
-2025-03-30 21:11:18 -   - Registros: 309
-2025-03-30 21:11:18 -   - Columnas: 11
-2025-03-30 21:11:18 -   - Nuevas columnas añadidas: 4
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 -   - Registros: 326
+2025-04-06 20:52:37 -   - Columnas: 11
+2025-04-06 20:52:37 -   - Nuevas columnas añadidas: 4
+2025-04-06 20:52:37 - 
 • Operaciones de cruce:
-2025-03-30 21:11:18 -   - Cruce con fuente CSV: 309 registros evaluados
-2025-03-30 21:11:18 -   - Cruce con fuente JSON: 309 registros evaluados
-2025-03-30 21:11:18 -   - Cruce con fuente EXCEL: 309 registros evaluados
-2025-03-30 21:11:18 -   - Cruce con fuente XML: 10 registros evaluados
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 -   - Cruce con fuente CSV: 326 registros evaluados
+2025-04-06 20:52:37 -   - Cruce con fuente JSON: 326 registros evaluados
+2025-04-06 20:52:37 -   - Cruce con fuente EXCEL: 326 registros evaluados
+2025-04-06 20:52:37 -   - Cruce con fuente XML: 10 registros evaluados
+2025-04-06 20:52:37 - 
 • Estadísticas de calidad:
-2025-03-30 21:11:18 -   - Valores nulos en dataset enriquecido: 313
-2025-03-30 21:11:18 -   - Porcentaje de completitud: 90.79%
-2025-03-30 21:11:18 - 
+2025-04-06 20:52:37 -   - Valores nulos en dataset enriquecido: 330
+2025-04-06 20:52:37 -   - Porcentaje de completitud: 90.80%
+2025-04-06 20:52:37 - 
 • Análisis de columnas enriquecidas:
-2025-03-30 21:11:18 -   - popularidad: 100.00% de datos completos
-2025-03-30 21:11:18 -   - ranking: 100.00% de datos completos
-2025-03-30 21:11:18 -   - votos: 100.00% de datos completos
-2025-03-30 21:11:18 -   - categorias: 100.00% de datos completos
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - PROCESO DE ENRIQUECIMIENTO COMPLETADO EXITOSAMENTE
-2025-03-30 21:11:18 - ============================================================
-2025-03-30 21:11:18 - Proceso de enriquecimiento completado exitosamente.
+2025-04-06 20:52:37 -   - popularidad: 100.00% de datos completos
+2025-04-06 20:52:37 -   - ranking: 100.00% de datos completos
+2025-04-06 20:52:37 -   - votos: 100.00% de datos completos
+2025-04-06 20:52:37 -   - categorias: 100.00% de datos completos
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - PROCESO DE ENRIQUECIMIENTO COMPLETADO EXITOSAMENTE
+2025-04-06 20:52:37 - ============================================================
+2025-04-06 20:52:37 - Proceso de enriquecimiento completado exitosamente.

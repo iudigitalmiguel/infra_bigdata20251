@@ -1,84 +1,84 @@
-2025-03-30 21:11:17 - === REPORTE DE LIMPIEZA Y TRANSFORMACIÓN DE DATOS ===
-2025-03-30 21:11:17 - Fecha y hora: 2025-03-30 21:11:17
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - Iniciando procesamiento de datos en la nube (simulado)...
-2025-03-30 21:11:17 - Conexión exitosa a la base de datos: src/bigdata/static/db/anime_data.db
-2025-03-30 21:11:17 - Cargando datos de la tabla: personajes
-2025-03-30 21:11:17 - Datos cargados exitosamente: 309 registros.
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 - === REPORTE DE LIMPIEZA Y TRANSFORMACIÓN DE DATOS ===
+2025-04-06 20:52:36 - Fecha y hora: 2025-04-06 20:52:36
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - Iniciando procesamiento de datos en la nube (simulado)...
+2025-04-06 20:52:36 - Conexión exitosa a la base de datos: src/bigdata/static/db/anime_data.db
+2025-04-06 20:52:36 - Cargando datos de la tabla: personajes
+2025-04-06 20:52:36 - Datos cargados exitosamente: 326 registros.
+2025-04-06 20:52:36 - 
 ============================================================
-2025-03-30 21:11:17 - ANÁLISIS EXPLORATORIO DE DATOS
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - Total de registros: 309
-2025-03-30 21:11:17 - Registros duplicados: 0
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 - ANÁLISIS EXPLORATORIO DE DATOS
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - Total de registros: 326
+2025-04-06 20:52:36 - Registros duplicados: 0
+2025-04-06 20:52:36 - 
 Valores nulos por columna:
-2025-03-30 21:11:17 -   • nombre_kanji: 307 valores nulos
-2025-03-30 21:11:17 -   • role: 8 valores nulos
-2025-03-30 21:11:17 -   • imagen_url: 7 valores nulos
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -   • nombre_kanji: 324 valores nulos
+2025-04-06 20:52:36 -   • role: 3 valores nulos
+2025-04-06 20:52:36 -   • imagen_url: 3 valores nulos
+2025-04-06 20:52:36 - 
 Problemas potenciales de tipo de datos:
-2025-03-30 21:11:17 -   • anime_id: 15 valores no numéricos
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -   • anime_id: 14 valores no numéricos
+2025-04-06 20:52:36 - 
 Posibles outliers:
-2025-03-30 21:11:17 -   • id: 58 posibles outliers
-2025-03-30 21:11:17 -   • anime_id: 15 posibles outliers
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -   • id: 68 posibles outliers
+2025-04-06 20:52:36 -   • anime_id: 19 posibles outliers
+2025-04-06 20:52:36 - 
 Resumen estadístico de columnas:
-2025-03-30 21:11:17 -   • id: min=1.0, max=268346.0
-2025-03-30 21:11:17 -   • nombre: min=nan, max=nan
-2025-03-30 21:11:17 -   • nombre_kanji: min=nan, max=nan
-2025-03-30 21:11:17 -   • role: min=nan, max=nan
-2025-03-30 21:11:17 -   • anime_id: min=nan, max=nan
-2025-03-30 21:11:17 -   • imagen_url: min=nan, max=nan
-2025-03-30 21:11:17 -   • fecha_extraccion: min=nan, max=nan
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -   • id: min=1.0, max=277451.0
+2025-04-06 20:52:36 -   • nombre: min=nan, max=nan
+2025-04-06 20:52:36 -   • nombre_kanji: min=nan, max=nan
+2025-04-06 20:52:36 -   • role: min=nan, max=nan
+2025-04-06 20:52:36 -   • anime_id: min=nan, max=nan
+2025-04-06 20:52:36 -   • imagen_url: min=nan, max=nan
+2025-04-06 20:52:36 -   • fecha_extraccion: min=nan, max=nan
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - 
 ============================================================
-2025-03-30 21:11:17 - LIMPIEZA Y TRANSFORMACIÓN DE DATOS
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - Registros iniciales: 309
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 - LIMPIEZA Y TRANSFORMACIÓN DE DATOS
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - Registros iniciales: 326
+2025-04-06 20:52:36 - 
 1. Eliminación de duplicados:
-2025-03-30 21:11:17 -    • 0 registros duplicados eliminados
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -    • 0 registros duplicados eliminados
+2025-04-06 20:52:36 - 
 2. Manejo de valores nulos:
-2025-03-30 21:11:17 -    • Imputación de 307 valores nulos en 'nombre_kanji' con cadena vacía
-2025-03-30 21:11:17 -    • Imputación de 8 valores nulos en 'role' con 'DESCONOCIDO'
-2025-03-30 21:11:17 -    • Imputación de 7 valores nulos en 'imagen_url' con URL de imagen por defecto
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -    • Imputación de 324 valores nulos en 'nombre_kanji' con cadena vacía
+2025-04-06 20:52:36 -    • Imputación de 3 valores nulos en 'role' con 'DESCONOCIDO'
+2025-04-06 20:52:36 -    • Imputación de 3 valores nulos en 'imagen_url' con URL de imagen por defecto
+2025-04-06 20:52:36 - 
 3. Corrección de tipos de datos:
-2025-03-30 21:11:17 -    • Corrección de 15 valores no numéricos en 'anime_id'
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -    • Corrección de 14 valores no numéricos en 'anime_id'
+2025-04-06 20:52:36 - 
 4. Transformaciones adicionales:
-2025-03-30 21:11:17 -    • Normalización de nombres: eliminación de caracteres especiales
-2025-03-30 21:11:17 -    • Estandarización de roles: conversión a mayúsculas
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -    • Normalización de nombres: eliminación de caracteres especiales
+2025-04-06 20:52:36 -    • Estandarización de roles: conversión a mayúsculas
+2025-04-06 20:52:36 - 
 Resumen del proceso de limpieza:
-2025-03-30 21:11:17 -    • Registros iniciales: 309
-2025-03-30 21:11:17 -    • Registros finales: 309
-2025-03-30 21:11:17 -    • Registros eliminados: 0
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 -    • Registros iniciales: 326
+2025-04-06 20:52:36 -    • Registros finales: 326
+2025-04-06 20:52:36 -    • Registros eliminados: 0
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - 
 ============================================================
-2025-03-30 21:11:17 - GENERACIÓN DE EVIDENCIAS
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - • Datos limpios guardados en Excel: src/bigdata/static/db/cleaned_data.xlsx
-2025-03-30 21:11:17 - • Datos limpios guardados en CSV: src/bigdata/static/db/cleaned_data.csv
-2025-03-30 21:11:17 - • Reporte de auditoría generado en: src/bigdata/static/auditoria/cleaning_report.txt
-2025-03-30 21:11:17 - 
+2025-04-06 20:52:36 - GENERACIÓN DE EVIDENCIAS
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - • Datos limpios guardados en Excel: src/bigdata/static/db/cleaned_data.xlsx
+2025-04-06 20:52:36 - • Datos limpios guardados en CSV: src/bigdata/static/db/cleaned_data.csv
+2025-04-06 20:52:36 - • Reporte de auditoría generado en: src/bigdata/static/auditoria/cleaning_report.txt
+2025-04-06 20:52:36 - 
 RESUMEN FINAL DEL PROCESO
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - • Registros iniciales: 309
-2025-03-30 21:11:17 - • Registros finales después de limpieza: 309
-2025-03-30 21:11:17 - • Diferencia: 0 registros
-2025-03-30 21:11:17 - • Operaciones realizadas:
-2025-03-30 21:11:17 -   - Eliminación de duplicados
-2025-03-30 21:11:17 -   - Imputación de valores nulos
-2025-03-30 21:11:17 -   - Corrección de tipos de datos
-2025-03-30 21:11:17 -   - Normalización de textos
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - PROCESO COMPLETADO EXITOSAMENTE
-2025-03-30 21:11:17 - ============================================================
-2025-03-30 21:11:17 - Proceso de datos en la nube (simulado) completado exitosamente.
-2025-03-30 21:11:17 - Conexión a la base de datos cerrada.
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - • Registros iniciales: 326
+2025-04-06 20:52:36 - • Registros finales después de limpieza: 326
+2025-04-06 20:52:36 - • Diferencia: 0 registros
+2025-04-06 20:52:36 - • Operaciones realizadas:
+2025-04-06 20:52:36 -   - Eliminación de duplicados
+2025-04-06 20:52:36 -   - Imputación de valores nulos
+2025-04-06 20:52:36 -   - Corrección de tipos de datos
+2025-04-06 20:52:36 -   - Normalización de textos
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - PROCESO COMPLETADO EXITOSAMENTE
+2025-04-06 20:52:36 - ============================================================
+2025-04-06 20:52:36 - Proceso de datos en la nube (simulado) completado exitosamente.
+2025-04-06 20:52:36 - Conexión a la base de datos cerrada.
